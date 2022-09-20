@@ -1,3 +1,32 @@
-h1{
-    color: var(--Primary-color);
+/** 1 - Header-Alert **/
+.header-alert{
+    background-color: var(--red-danger-color);
 }
+
+.header-alert-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.8vw;
+    padding: 8px 0;
+}
+
+.alert-logo{
+    width: 1.5em;
+    color: var(--white-color);
+}
+
+.header-alert-details a{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-decoration: underline;
+    color: var(--white-color);
+}
+
+.header-alert-details a:hover{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+/** 2 - Header-Navigation **/

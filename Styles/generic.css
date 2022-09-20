@@ -1,6 +1,25 @@
-:root{
-    /*Font-Style*/
-
-    /*Text-Color*/
-    --Primary-color: red;
+*{
+    box-sizing: border-box;
 }
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+:root{
+    /*
+        font-family:
+    */
+    --open-sans-font: "Open Sans", sans-serif;;
+    --roboto-slab-font: "Roboto Slab light", serif;
+
+    /*
+        Text-Color
+    */
+    --red-danger-color: #900;
+    --white-color: #fff;
+}
+
