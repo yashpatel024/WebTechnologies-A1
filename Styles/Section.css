@@ -1,0 +1,42 @@
+.bg-note{
+    background-color:#0e606c;
+    padding: 1rem;
+}
+.note-text{
+    font-family: "Roboto Slab", serif;
+    color: white;
+    font-size: 1.28rem;
+    margin-bottom: 0rem;
+}
+
+.note-dis-top{
+    padding: 1rem;
+}
+
+.note-dis-in{
+    border-left: 3px solid;
+    border-color: #17a2b8;
+    padding-left: 1rem;
+}
+.dis{
+    font-family: var(--open-sans-font);
+}
+
+.head-study{
+    font-size: 1.563rem;
+    font-family: "Roboto Slab light", serif;
+}
+
+.col2-btn .btn-primary {
+    color: #fff;
+    background-color:#1c467a;
+    border-color: #1c467a;
+    border-radius: 0px;
+    margin-top: 0.5rem;
+}
+
+.col2-btn .btn-primary:hover {
+
+    background-color:#2863aa;
+
+}
