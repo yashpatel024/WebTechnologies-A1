@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    /* background-color: ; */
 }
 
 html,
@@ -14,12 +15,14 @@ body {
         font-family:
     */
     --open-sans-font: "Open Sans", sans-serif;;
-    --roboto-slab-font: "Roboto Slab light", serif;
+    --roboto-slab-font: "Roboto Slab", serif;
 
     /*
         Text-Color
     */
-    --red-danger-color: #900;
     --white-color: #fff;
+    --black-color: #000;
+    --red-danger-color: #900;
+    /* --pre-navigation-dark-gray-color: rgb(45, 45, 45):  */
 }
 

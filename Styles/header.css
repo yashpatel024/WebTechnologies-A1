@@ -29,4 +29,75 @@
     color: var(--white-color);
 }
 
-/** 2 - Header-Navigation **/
+/** 2 - Header-pre-Navigation **/
+.header-pre-navigation{
+    /* background-color: var(--pre-navigation-dark-gray-color); */
+    background-color: #2d2d2d;
+}
+
+.header-pre-navigation-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-pre-navigation span{
+    font-family: var(--open-sans-font);
+}
+
+/* Left-side Pre navigation */
+.left-side-navigation button{
+    margin: 0 0.25rem;
+    border: 0px;
+    background-color: #2d2d2d;
+    border-radius: 0;
+}
+
+.left-side-navigation .internation-btn{
+    background-color: #535a5f ;
+}
+
+.left-side-navigation button:hover{
+    background-color: #535a5f;
+}
+
+.dropdown-menu{
+    background-color: #2d2d2d;
+    border-radius: 0;
+    padding: 1.5rem 1rem 2rem 1rem;
+    margin: 0;
+    border-top: 0.125rem solid transparent;
+}
+
+/* Right-side Pre navigation */
+.right-side-navigation button.btn-primary{
+    background-color: #1c467a;
+    border-color: #1c467a;
+    border-radius: 0;
+}
+
+.right-side-navigation button.btn-primary:hover{
+    background-color: #235796;
+}
+
+.right-side-navigation button.btn-secondary{
+    background-color: var(--black-color);
+    border-color: var(--black-color);
+    border-radius: 0;
+}
+
+.right-side-navigation button.btn-secondary:hover{
+    background-color: #535a5f;
+}
+
+.right-side-navigation svg{
+    width: 15px;
+}
+
+/** 3 - Header-main-Navigation **/
+.header-main-navigation{
+    background-color: var(--black-color);
+}
+
+
+
