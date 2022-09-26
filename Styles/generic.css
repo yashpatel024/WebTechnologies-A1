@@ -14,7 +14,8 @@ body {
     /*
         font-family:
     */
-    --open-sans-font: "Open Sans", sans-serif;;
+    --open-sans-font: "Open Sans", sans-serif;
+    --open-sans-light-font: "Open Sans light", sans-serif;
     --roboto-slab-font: "Roboto Slab", serif;
 
     /*
