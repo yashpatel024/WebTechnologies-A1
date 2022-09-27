@@ -113,13 +113,12 @@
     cursor: pointer;
 }
 
-
-.left-navigation{
+.header-main-navigation-details .left-navigation{
     display: flex;
     align-items: center;
 }
 
-.left-navigation-menu a{
+.header-main-navigation-details .left-navigation-menu a{
     cursor: pointer;
     text-decoration: none;
     color: var(--white-color);
@@ -130,8 +129,12 @@
     font-family: var(--open-sans-font);
 }
 
-.left-navigation-menu a:hover{
+.header-main-navigation-details .left-navigation-menu a:hover{
     text-decoration: underline;
+}
+
+.header-main-navigation-details .left-navigation .header-main-navigation-mobile{
+    display: none;
 }
 
 /** 4 - Hero Section **/
@@ -151,8 +154,8 @@
     text-shadow: 2px 2px 5px #000!important;
 }
 
-.header-hero-section-details{
-    padding-bottom: 48px;
+.header-post-navigation-mobile{
+    display: none;
 }
 
 /** 5 - Header-Post-Navigation **/
@@ -201,3 +204,105 @@
     display: block;
     margin-top: 0;
  } */
+
+ 
+ /** Media query according to iPhone XR **/
+@media only screen 
+    and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+
+    /** 1 - Header-Alert **/
+    .header-alert-details{
+        gap: 3vw;
+    }
+
+    .alert-logo{
+        width: 1.5em;
+    }
+
+    .header-alert-details a{
+        font-size: 1em;
+    }
+
+    /** 2 - Header-pre-Navigation **/
+    /* .header-pre-navigation{
+        background-color: #2d2d2d;
+    } */
+
+    .header-pre-navigation-details{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    /* Left-side Pre navigation */
+    .left-side-navigation{
+        display: none;
+    }
+
+    /** 3 - Header-main-Navigation **/
+    .header-main-navigation-details .left-navigation{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .header-main-navigation-details .left-navigation-menu{
+        display: none;
+    }
+    
+    .header-main-navigation-details .left-navigation-dropdown{
+        display: none;
+    }
+
+    .header-main-navigation-details .left-navigation .header-main-navigation-mobile{
+        display: block;
+        fill: #fff;
+        text-decoration: none;
+        color: #fff;
+        padding: 6px 12px;
+        border: 1px solid #fff;
+    }
+
+    .header-main-navigation-details .left-navigation .header-main-navigation-mobile svg{
+        width: 15px;
+        height: 15px !important;
+    }
+
+    /** 4 - Hero Section **/
+    .header-hero-section{
+        padding-top: 45%;
+    }
+
+    .header-hero-section-details p{
+        font-size: 28px;
+        margin-bottom: 0px;
+    }
+
+    .header-hero-section-details{
+        padding-bottom: 8px;
+    }
+
+    /** 5 - Header-Post-Navigation **/
+    .header-post-navigation-details{
+        display: none;
+    }
+
+    .header-post-navigation-mobile{
+        display: flex;
+        justify-content: flex-end;
+        padding: 12px 0;
+    }
+
+    .header-post-navigation-mobile .mobile-menu{
+        display: flex;
+        flex-direction: row;
+        font-family: var(--open-sans-font);
+        font-weight: 700;
+        gap: 5px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .header-post-navigation-mobile .mobile-menu svg{
+        width: 17px;
+        height: 17px;
+    }
+}
