@@ -1,0 +1,130 @@
+/** 1 - Main Footer **/
+.footer-main{
+    background-color: #2d2d2d;
+    padding-top: 50px;
+}
+
+.footer-main-details{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: #f5f5f5;
+    padding-bottom: 50px;
+}
+
+.footer-main-head{
+    font-family: var(--roboto-slab-font);
+    font-size: 18px;
+    color: var(--white-color);
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.footer-main-details .footer-column{
+    margin: 16px 0;
+    padding: 0 15px;
+}
+
+.footer-main-details div p{
+    font-family: var(--open-sans-light-font);
+    font-size: 0.87rem;
+}
+
+.footer-main-details div p a{
+    color: #ccc;
+    text-decoration: underline;   
+}
+
+.footer-contacts{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30%;
+}
+
+.footer-border-right{
+    width: 3%;
+    border-left: 1px solid #fff;
+}
+
+.footer-explore{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
+    width: 30%;
+}
+
+.footer-about{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30%;
+}
+
+.footer-main-lists{
+    list-style-type: none;
+    text-align: left;
+    padding-inline-start: 0px !important;
+    font-size: 0.87rem;
+    font-family: var(--open-sans-font);
+    font-weight: 400;
+    color: #ccc;
+    line-height: 1.45rem;
+}
+
+.footer-main-lists li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Social Media Icons */
+.social-media-icon-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.social-icon-inside{
+    width: 20px !important;
+    position: absolute;
+    left: 18%;
+    top: 17%;
+}
+
+.social-icons{
+    position: relative;
+}
+
+.social-icons svg{
+    width: 32px;
+    fill: #fff;
+    display: flex;
+    justify-content: center;
+    overflow: visible;
+}
+
+.social-icons:hover{
+    cursor: pointer;
+}
+
+
+/** 2 - Copyright Section **/
+.footer-copyright{
+    background-color: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.86rem;
+    color: #333132;
+    word-spacing: 0.5px;
+}
+
+.footer-copyright a{
+    color: #1c467a;
+    text-decoration: underline;
+}
+
+.footer-copyright a:hover{
+    text-decoration: none;
+}
