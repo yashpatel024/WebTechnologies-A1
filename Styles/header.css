@@ -55,6 +55,7 @@
 
 .left-side-navigation .internation-btn{
     background-color: #535a5f ;
+    margin-left: 0px !important;
 }
 
 .left-side-navigation button:hover{
@@ -98,6 +99,41 @@
 .header-main-navigation{
     background-color: var(--black-color);
 }
+
+.header-main-navigation-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.header-main-navigation-details img{
+    width: 220px;
+    cursor: pointer;
+}
+
+
+.left-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.left-navigation-menu a{
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--white-color);
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: var(--open-sans-font);
+}
+
+.left-navigation-menu a:hover{
+    text-decoration: underline;
+}
+
 
 
 
