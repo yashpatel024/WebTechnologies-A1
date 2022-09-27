@@ -3,6 +3,16 @@
     /* background-color: ; */
 }
 
+@font-face {
+    font-family: Open_Sans;
+    src: url("../Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+    font-family: Roboto_Slab;
+    src: url("../Fonts/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf");
+}
+
 html,
 body {
     margin: 0;
@@ -14,11 +24,8 @@ body {
     /*
         font-family:
     */
-    --open-sans-font: "Open Sans", sans-serif;
-    --open-sans-light-font: "Open Sans light", sans-serif;
-    
-    /* TODO: Not Working */
-    --roboto-slab-font: "Roboto Slab", serif; 
+    --open-sans-font: Open_Sans;
+    --roboto-slab-font: Roboto_Slab; 
 
     /*
         Text-Color
