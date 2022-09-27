@@ -134,6 +134,70 @@
     text-decoration: underline;
 }
 
+/** 4 - Hero Section **/
+.header-hero-section{
+    background-image: url("../Images/international.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 18%;
+}
 
+.header-hero-section-details p{
+    font-family: var(--roboto-slab-font);
+    text-transform: capitalize;
+    font-size: 46px;
+    color: var(--white-color);
+    font-weight: 500;
+    text-shadow: 2px 2px 5px #000!important;
+}
 
+.header-hero-section-details{
+    padding-bottom: 48px;
+}
 
+/** 5 - Header-Post-Navigation **/
+.header-post-navigation{
+    background-color: #ccc;
+}
+
+.header-post-navigation-details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap:0px
+}
+
+.header-post-navigation-details button{
+    color: #000;
+    background-color: #ccc;
+    border: none;
+    border-radius: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--open-sans-font);
+    padding: 10px 15px;
+    border-right: 1px solid #efefef;
+}
+
+.header-post-navigation-details>button:hover{
+    border-right: 1px solid #efefef;
+    color: #000 !important;
+    background-color: #fff;
+}
+
+.header-post-navigation-details .btn-group button:hover{
+    border-right: 1px solid #fff;
+    color: #000 !important;
+    background-color: #fff;
+}
+
+#post-navigation-home {
+    color: #000;
+    background-color: #fff;
+}
+
+/* .dropdown-toggle:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ } */
