@@ -66,6 +66,9 @@
 
 .row-cols-3 .col{
     padding: 4.5rem 3rem 4.5rem 0rem;
+    display: flex;
+    flex: 33.3333%; 
+    max-width: 33.333333%;
 }
 
 /** 7 - For cards **/
@@ -90,7 +93,7 @@
 }
 
 .card .card-title{
-    font-family: "Roboto Slab", serif;
+    font-family: var(--roboto-slab-font);
     text-align: center;
     font-size: 1.25rem;
 }
@@ -113,14 +116,45 @@
     padding: 4.5rem 3rem 4.5rem 0rem;
 }
 
+.row-cols-4 .col{
+    padding: 4.5rem 3rem 4.5rem 0rem;
+    display: flex;
+    flex: 25%; 
+    max-width: 25%;
+}
+
 .head-text-class{
     text-align: center;
     color: #1c467a;
     font-size: 36px;
-    font-family: "Roboto Slab light", serif;
+    font-family: var(--roboto-slab-font);
 }
 .discription-text-class{
     text-align: center;
     font-family: var(--open-sans-light-font);
     font-size: 16px;
 }
+
+@media only screen 
+    and (device-width : 414px) and (device-height : 896px) and (-webkit-device-pixel-ratio : 2) {
+    
+        .row-cols-3 .col{
+            padding: 3rem 2rem 3rem 2rem;
+            flex: 100%;
+            max-width: 100%;
+        }
+
+        .row-cols-4{
+            padding: 3rem 0rem 3rem 0rem;
+            flex-wrap: wrap;
+        }
+
+        .row-cols-4 .col{
+            flex: 0 0 100%;
+            max-width: 100%;
+            display: block;
+            width: 100%;
+            padding: 0rem 0rem 0rem 0rem;
+        }
+    
+    }
